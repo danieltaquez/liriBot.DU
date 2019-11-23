@@ -71,7 +71,6 @@ function spotifyThisSong(song){
         }
     });
     }
-
     function omdb(movie){
         var omdbURL = 'http://www.omdbapi.com/?t=' + movie + '&apikey=' + omdbKey + '&plot=short&tomatoes=true';
       
